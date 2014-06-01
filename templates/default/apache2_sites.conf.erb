@@ -23,14 +23,14 @@
     Allow from all
   </Location>
 
-  LogLevel info
+  LogLevel debug
   ErrorLog <%= node[:apache][:log_dir] %>/<%= @params[:name] %>-error.log
   CustomLog <%= node[:apache][:log_dir] %>/<%= @params[:name] %>-access.log combined
 
   RewriteEngine On
   RewriteLog <%= node[:apache][:log_dir] %>/<%= @application_name %>-rewrite.log
   # level 0 => Do not log rewrite
-  RewriteLogLevel 0
+  RewriteLogLevel 3
   <% if port === "443" -%>
 
   SSLEngine on
