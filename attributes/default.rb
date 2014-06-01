@@ -26,3 +26,8 @@ normal[:php][:directives]['short_open_tag'] = 'Off';
 default['mysql']['server_root_password']   = 'vagrant'
 default['mysql']['server_repl_password']   = 'vagrant'
 default['mysql']['server_debian_password'] = 'vagrant'
+
+# Symfony Settings
+default[:symfony][:database_name] = 'vagrant'
+default[:symfony][:database_user] = 'root'
+default[:symfony][:database_pass] = 'vagrant'
