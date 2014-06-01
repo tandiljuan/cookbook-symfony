@@ -1,8 +1,8 @@
-name             "cookbook-lamp"
+name             "cookbook-symfony"
 maintainer       "Juan Manuel Lopez"
 maintainer_email ""
 license          "Apache 2.0"
-description      "Setup a LAMP environment"
+description      "Setup a Symfony2 environment"
 version          "0.0.1"
 
 depends 'apt', '= 1.8.0'
