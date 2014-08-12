@@ -1,1 +1,1 @@
-include_recipe "cookbook-lamp::lamp"
+include_recipe "cookbook-symfony::lamp"
