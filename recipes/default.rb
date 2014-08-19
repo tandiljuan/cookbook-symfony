@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: cookbook-core
+# Cookbook Name:: cookbook-lamp
 # Recipe:: default
 #
 # Author:: Juan Manuel Lopez
