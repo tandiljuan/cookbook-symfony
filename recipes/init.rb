@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: cookbook-lamp
+# Cookbook Name:: cookbook-symfony
 # Recipe:: init
 #
 # Author:: Juan Manuel Lopez
